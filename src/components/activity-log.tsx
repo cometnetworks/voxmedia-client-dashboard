@@ -60,7 +60,7 @@ export function ActivityLog() {
                                 <span className="text-sm font-bold">{activity.action}</span>
                                 <span className="text-xs text-muted-foreground flex items-center gap-1">
                                     <Clock className="h-3 w-3" /> {activity.date}
-                                </date>
+                                </span>
                             </div>
                         </div>
                     ))}
