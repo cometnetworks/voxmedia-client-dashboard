@@ -10,7 +10,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export default function OpportunitiesPage() {
     const opportunities = useQuery(api.pipelinedb.getPipeline, {
-        clientId: "dummy-id" as any
+        clientId: "j970etx9pqv3y0zydy5d1d7pbx828b1t" as any
     })?.filter(item => item.status === "Oportunidad" || item.status === "Interesado");
 
     return (

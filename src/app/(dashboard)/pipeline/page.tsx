@@ -20,7 +20,7 @@ export default function PipelinePage() {
     // Using a hardcoded ID for now until Auth is implemented
     // In a real app, this would come from the session
     const pipeline = useQuery(api.pipelinedb.getPipeline, {
-        clientId: "dummy-id" as any // This will fail if not seeded, but layout first
+        clientId: "j970etx9pqv3y0zydy5d1d7pbx828b1t" as any
     });
 
     return (
